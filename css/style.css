@@ -9,15 +9,33 @@ background-color: hsl(217, 54%, 11%);}
      position: relative;
 
 }
+.vis{
+    position: relative;
+        display: inline-block;
+        width: 260px;
+        height: 260px;
+}
 .eqi-img{
     width: 260px;
-    border-radius: 10px;
-    
+    border-radius: 10px;position:relative;display: inline;   
 }
+.vis .view{display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;} 
+.view{padding: 106px;
+ 
+left:31px ;
+background-color: rgba(0, 255, 255, 0.5);border-radius: 10px;}
+ 
+
+.vis:hover .view{display: inline;}
 h3{font-family: 'Outfit', sans-serif;
 color: hsl(0, 0%, 100%);
 font-size: 20px;
 text-align: left;}
+h3:hover{color:hsl(178, 100%, 50%) ;}
 
 .pr{
     font-family: 'Outfit', sans-serif;
@@ -74,3 +92,4 @@ margin-right: 40px;
 .wh{
 color: hsl(0, 0%, 100%);font-family: 'Outfit', sans-serif;
 }
+.wh:hover{color: hsl(178, 100%, 50%);}
