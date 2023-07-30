@@ -1,0 +1,76 @@
+body{text-align: center;
+background-color: hsl(217, 54%, 11%);}
+
+.card{background-color:hsl(216, 50%, 16%) ; 
+    display: inline-block;
+     border-radius: 20px;
+     margin-top: 50px;
+     padding: 30px;
+     position: relative;
+
+}
+.eqi-img{
+    width: 260px;
+    border-radius: 10px;
+    
+}
+h3{font-family: 'Outfit', sans-serif;
+color: hsl(0, 0%, 100%);
+font-size: 20px;
+text-align: left;}
+
+.pr{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    width: 260px;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 30px;
+}
+.ethereum{display: inline-block;position: absolute;left: 30px;padding-top: 3px;
+    
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    display:inline;margin-left: 15px;
+    
+    
+}
+.clock{ display: inline;
+position: absolute;
+padding-top: 4px;
+padding-left: 60px;}
+.days{
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);margin-left: 85px;
+}
+.par{text-align: left;width: 260px;}
+.do{display: inline;}
+.dt{display: inline;}
+.hl{ width:260px;
+    margin-top: 20px;
+    border-color: hsl(215, 32%, 27%);
+    border-top: 20px;
+}
+.ava{margin-top: 20px;
+    
+    border-radius: 100%;
+    width: 25px;
+    padding: 0.5px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    position: inherit;left: 0px;
+    
+    
+}
+.tx{display: inline;
+position: relative;top: -7px;font-family: 'Outfit', sans-serif;color: hsl(215, 51%, 70%);
+margin-left: 10px;
+margin-right: 40px;
+}
+.wh{
+color: hsl(0, 0%, 100%);font-family: 'Outfit', sans-serif;
+}
